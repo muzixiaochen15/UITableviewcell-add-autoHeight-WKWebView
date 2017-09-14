@@ -1,0 +1,2 @@
+# UITableviewcell-add-autoHeight-WKWebView
+在cell中使用WKWebView，webView高度可变，就tableview加载之前预先将所有数据对应的webview计算出似乎效率，而且获取webview的高度属于耗时操作，这样做明显不合理，我们来改进一下，在模型数据中添加webViewHeight和webContent两个参数，解析数据时，计算每条数据tableView的刷新采用单行刷新，
